@@ -1,0 +1,87 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Databases
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# RAG / Vector Stores
+# =========================
+data/chroma/
+data/qdrant/
+data/vectorstore/
+
+# =========================
+# Generated / Temporary Data
+# =========================
+*.tmp
+*.temp
+tmp/
+temp/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+coverage.xml
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logfire
+# =========================
+.logfire/
